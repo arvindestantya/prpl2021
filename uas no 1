@@ -1,0 +1,7 @@
+1.	Prinsip SOLID pada pengembangan perangkat lunak.
+-	Single-Reponsibility
+Pengertian: Setiap class hanya punya satu tugas. Sehingga kelas itu hanya punya satu alasan untuk berubah, yakni merubah satu tugas tersebut.
+Keuntungan: code menjadi lebih rapi, performance menjadi lebih cepat, jumlah line pada method lebih sedikit sehinggan membuat code lebih enak dimaintain dan penggunaan resource memory lebih sedikit.
+-	Open-Closed
+Pengertian: Sebuah class yang sudah ditulis dan disepakati perilakunya (behaviour), harus mudah diwariskan dan tidak boleh diubah - ubah kembali.
+Keuntungan: ketika ada persyaratan yang ingin diubah, cukup menambahkan behavior dari suatu modul dengan menambah kode baru, bukan dari mengubah kode lama yang telah bekerja. Ini menjadikan OCP meringankan maintenance kode dan meminimalkan resiko dari merusak kode yang telah ada.
